@@ -4,27 +4,27 @@
 # This code is not executed
 
 # Basic print statement
-print("Hello world!")
+#print("Hello world!")
 
 # Multiple items can be printed by separating with a ,
 # but a space is inserted between each item:
-print("Hello","world!","There ","is a double space here")
+#print("Hello","world!","There ","is a double space here")
 
 # An expression can be included in a print statement
-print("3 + 5 =", 8 )
-print("4 * 2 =", 4*2)
+#print("3 + 5 =", 8 )
+#print("4 * 2 =", 4*2)
 
 # Mixtures of variables and string literals can be included using formatted strings
 # Old style of formatted string
 # each {} is replaced by the expression included in the .format()
-name = "Bob"
-print("Hello, {}. 3 + 5 = {}".format(name,8))
+#name = "Bob"
+#print("Hello, {}. 3 + 5 = {}".format(name,8))
 
 # New style of formatted string where .format() is not needed
 # Note the inclusion of f before the ""
 name = "Bob"
 print(f"Hello, {name}.  3 + 5 = {3+5}")
-
+exit()
 # We have to make sure there are no extra " symbols that might close a string literal
 # if we need to use a " in the string, consider '' or \"
 print('This is how we can include a " in the string literal')
